@@ -1,0 +1,63 @@
+html{
+
+    --header-hight:40px; 
+    scroll-behavior: smooth;
+    --button-width: 50px ;
+  --button-height: 50px ;
+}
+
+
+.header{
+ background-color:  aqua;
+ height: var(--header-hight);
+ margin: 0;
+}
+
+
+
+.nav {
+   display: flex;
+  justify-content: center;  /* по горизонтали */
+  align-items: center;      /* по вертикали */
+  gap: 50px ;
+}
+
+.d1{
+   display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали */
+  
+}
+
+.image{
+    border: black solid 5px ;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.scrollTop{
+  display: block ;
+  position: fixed ;
+  right: 32px;
+  bottom: 64px ;
+ height: var(--button-height);
+ width: var(--button-width) ;
+ background-color: #E25544;
+  text-align: center ;
+  line-height: 50px ;
+  border-radius: 15% ;
+}
+
+.scrollTop__link{
+  font-size: 30px ;
+  text-decoration: none;
+  color: white ;
+}
+
+a{
+  text-decoration: none;
+}
